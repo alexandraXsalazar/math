@@ -1,0 +1,61 @@
+n = input("opcion:\n")
+
+switch n 
+    case 1 
+        syms x
+        y = x + 7
+        int(y)
+        
+    case 2 
+        syms x
+        y = 8*x.^3 - 9*x.^2 + 42
+        int(y)
+    
+    case 3 
+        syms x
+        y = (x.^2 + 2*x -3)/(x.^4)
+        int(y)
+        
+    case 4 
+        syms x
+        y = sec(x)^2 - sin(x)
+        int(y)
+        
+    case 5 
+        syms x
+        y = (cos(x))/(1 - cos(x)^2)
+        int(y)
+        
+    case 6 
+        syms x
+        y = (cos(x))/(sin(x)^2)
+        int(y)
+        
+     case 7 
+        syms x
+        y = x.^3*(x.^4 + 3)^2
+        int(y)
+        
+     case 8 
+        syms x
+        y = (x)/(sqrt(x.^2 + 36))
+        int(y)
+        
+     case 9 
+        syms x
+        y = sqrt(16 - x.^2)
+        int(y)
+        
+     case 10 
+        syms x
+        y = (1)/(x*sqrt(4*x.^2 - 9))
+        int(y)
+
+     case 11 
+        syms x
+        y = (x - sin(x))
+        int(y)
+        
+    otherwise
+        disp("opción no válida")
+end
