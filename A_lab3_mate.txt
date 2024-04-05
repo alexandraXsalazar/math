@@ -1,0 +1,89 @@
+n = input("opciòn:\n")
+ switch n 
+     % 02-abril-2024
+     %ejemplos
+     case 1
+         syms x
+         y = x*log(x)
+         int(y)
+         
+      case 2
+         syms x
+         y = log(x)
+         int(y)       
+         
+      case 3
+         syms x
+         y = exp(x) * cos (x)
+         int(y) 
+         
+      case 4
+         syms x
+         y = cos(sqrt(x))
+         int(y) 
+         
+         %tarea
+      case 5
+         syms x
+         y = x * exp(3*x)
+         int(y) 
+         
+      case 6
+         syms x
+         y = asin(x)
+         int(y) 
+         
+      case 7
+         syms x
+         y = (x + 1) * exp(2 * x)
+         int(y) 
+         
+      case 8
+         syms x
+         y = (2*x -1)* sin(3*x)
+         int(y) 
+         
+      case 9
+         syms x
+         y = sqrt(x) * log(x)
+         int(y)     
+         
+         %04-abril-2024
+         %ejemplos
+      case 10
+         syms x
+         y = 1 / (x.^2 - 4*x + 5)
+         int(y) 
+         
+      case 11
+         syms x
+         y = sqrt(4*x - x.^2)
+         int(y) 
+         
+         %tarea
+      case 12
+         syms x
+         y = 1 / (sqrt(x.^2 + 2*x + 2))
+         int(y) 
+         
+      case 13
+         syms x
+         y = x.^2 + 4*x + 13
+         int(y) 
+         
+      case 14
+         syms x
+         y = sec(x.^2) / (sqrt(tan(x.^2) + 4*tan(x) +1))
+         int(y) 
+         
+      case 15
+         syms x
+         y = log(x) / (x*sqrt(1 - 4*log(x) - log(x.^2)))
+         int(y)          
+         
+         
+         %tarea
+     otherwise
+         disp("opcion no valida")
+         
+ end
