@@ -1,0 +1,73 @@
+
+n = input("Opcion:\n")
+
+switch n 
+    % Ejmeplos lunes 15/04/2024 
+    case 1
+        y = 0;
+        for x = 1:6 
+            y = y + (3 * x - 2);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);
+        
+    case 2
+        y = 0;
+        for x = 1:7 
+            y = y + (x.^2 + 1);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y); 
+        
+        %ejercicios practicos lunes 15/04/2024
+        
+    case 3
+        y = 0;
+        for x = 1:20 
+            y = y + (5 * x + 4);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);         
+        
+        
+    case 4
+        y = 0;
+        for x = 1:7
+            y = y + ((x + 1).^2);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);
+        
+    case 5
+        y = 0;
+        for x = 1:10 
+            y = y + ((x - 1).^3);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);
+        
+        
+    case 6
+        y = 0;
+        for x = 1:10
+            y = y + (x.^3 - 1);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);
+        
+        
+    case 7
+        y = 0;
+        for x = 1:25
+            y = y + (2 * x*(x - 1));
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);
+        
+        
+        % ejemplos  martes 18/04/2024 area
+    case 8
+        y = 0;
+        for x = 1:20 
+            y = y + (5 * x + 4);
+        end
+        fprintf("La suma de los valores de y es: %d\n", y);        
+        
+    otherwise
+        disp("no valido");
+        
+end
+
